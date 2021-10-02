@@ -2,6 +2,26 @@
   text-align: center;
 }
 
+.App-nav {
+  display: flex;
+  height: 70px;
+}
+
+.App-nav a {
+  color: black;
+  text-decoration: overline black;
+  margin: 2em;
+  justify-content: center;
+  align-items: flex-start;
+  letter-spacing: .1em;
+  font-weight: 500;
+}
+
+.App-nav a:hover {
+  color: #c4d6be;
+  text-decoration: overline #c4d6be;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -22,10 +42,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #6f936d;
 }
 
 @keyframes App-logo-spin {
