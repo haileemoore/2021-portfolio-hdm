@@ -1,14 +1,24 @@
-.page-load {
+.home-page {
   text-align: center;
   background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.App-nav {
+.nav {
   display: flex;
   height: 70px;
+  width: 100%;
+  background-color: white;
+  align-items: center;
 }
 
-.App-nav a {
+.nav a {
   color: black;
   text-decoration: none;
   margin: 2em;
@@ -18,7 +28,7 @@
   font-weight: 500;
 }
 
-.App-nav a:hover {
+.nav a:hover {
   color: #c4d6be;
   text-decoration: overline #c4d6be;
 }
@@ -32,16 +42,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.page-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 @keyframes App-logo-spin {
