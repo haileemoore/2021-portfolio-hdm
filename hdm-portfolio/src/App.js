@@ -3,10 +3,8 @@ import './App.css';
 function HomePage() {
   return (
     <div className="homepage">
-      <ul className="nav">
-        <li className="nav-title">
-          <a className="title nav-link" href="/#">HAILEE MOORE</a>
-        </li>
+      {/* navbar */}
+      <ul className="nav fixed justify-content-end">
         <li className="nav-item">
           <a className="nav-link" href="/home">HOME</a>
         </li>
