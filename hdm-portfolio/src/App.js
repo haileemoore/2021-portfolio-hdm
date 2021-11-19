@@ -19,7 +19,8 @@ function HomePage() {
         </li>
       </ul>
       <header className="intro">
-        <h1>Denver-based UX Designer who's world revolves around user-centric design, and creative problem solving. </h1>
+        <h1>Hi, I'm Hailee.</h1>
+        <h2>Denver-based UX Designer who's world revolves around user-centric design, and creative problem solving. </h2>
       </header>
     </div>
   );
