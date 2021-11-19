@@ -1,11 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Rubik', 
+  font-family: 'M Plus 1', 
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
-  letter-spacing: .6em;
+  padding: 100px;
+  width: 60%;
 }
